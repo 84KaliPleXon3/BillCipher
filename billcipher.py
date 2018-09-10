@@ -158,7 +158,7 @@ def iseeverything():
 
         elif choose == '16':
             clear()
-            os.system('cd modules/Sublist3r && python sublist3r.py -d '+victim)
+            os.system('cd modules/Sublist3r && python3 sublist3r.py -d '+victim)
             back()
 
         elif choose == '17':
