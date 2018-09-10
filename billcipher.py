@@ -5,7 +5,7 @@ import platform
 
 def back():
     print()
-    back = input('\033[92mDo you want to contunue? [Yes/No]: ')
+    back = input('\033[92mDo you want to continue? [Yes/No]: ')
     if back[0].upper() == 'Y':
         print()
         iseeverything()
@@ -30,7 +30,7 @@ def bill():
  ######  # #      #      #       # #    # ###### #####  #    # 
  #     # # #      #      #       # #####  #    # #      #####  
  #     # # #      #      #     # # #      #    # #      #   #  
- ######  # ###### ######  #####  # #      #    # ###### #    # 2.2
+ ######  # ###### ######  #####  # #      #    # ###### #    # 2.3
  Information Gathering tool for a Website or IP address""")
     print()
 
