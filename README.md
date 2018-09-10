@@ -1,4 +1,4 @@
-# About BillCipher 2.2
+# About BillCipher 2.3
 Information Gathering tool for a Website or IP address, use some ideas from <a href="http://bit.ly/2KU7BMF" target="_blank"><span style="color: blue">Devploit</span></a>.
 BillCipher can work in any operating system if they have and support Python 2, Python 3, and Ruby.
 
@@ -76,6 +76,9 @@ Facebook: <a href="https://githacktools.blogspot.com" target="_blank"><span styl
 
 Google Plus: <a href="https://plus.google.com/+TVT618" target="_blank"><span style="color: blue">+TVT618</span></a>
 
+# What's new in 2.3
+ * Fixed bug! <a href="https://github.com/GitHackTools/BillCipher/pull/2" target="_blank"><span style="color: blue">Here</span></a>
+ 
 # To-do list
  * Create a own version for the Hacker's OS like Kali Linux, ParrotSec (Kali version)
  * Add more features
