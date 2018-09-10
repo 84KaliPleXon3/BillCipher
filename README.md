@@ -78,6 +78,7 @@ Google Plus: <a href="https://plus.google.com/+TVT618" target="_blank"><span sty
 
 # What's new in 2.3
  * Fixed bug! <a href="https://github.com/GitHackTools/BillCipher/pull/2" target="_blank"><span style="color: blue">Here</span></a>
+ * Fixed bug "Not found subbrute module of Sublist3r"
  
 # To-do list
  * Create a own version for the Hacker's OS like Kali Linux, ParrotSec (Kali version)
