@@ -52,12 +52,12 @@ def banner():
 
 def iseeverything():
     try:
-        what = input('\033[92mAre you want to collect information of website or IP address? [website/IP]: ')
+        what = input('\033[92mDo you want to collect information of a website or IP address? [website/IP]: ')
         if what[0].upper() == 'W':
             victim = input('Enter the website address: ')
             banner()
         elif what[0].upper() == 'I':
-            victim = input('Enter the IP address (or domain to get IP address of this domain): ')
+            victim = input('Enter the IP address (or domain to get IP address of that domain): ')
             victim = socket.gethostbyname(victim)
             print('The IP address of target is:',victim)
             banner()
@@ -199,7 +199,7 @@ AUTHOR: https://GitHackTools.blogspot.com
             iseeverything()
             
     except socket.gaierror:
-        print('Name or service not known!\033[93m')
+        print('Name or service unknown!\033[93m')
         print()
         iseeverything()
     except UnboundLocalError:
